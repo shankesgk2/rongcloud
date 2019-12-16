@@ -1,0 +1,37 @@
+{
+    "name": "shankesgk2/rongcloud",
+    "description": "融云服务端SDK在Laravel的封装包",
+    "type": "library",
+    "keywords": ["rongcloud", "laravel", "package", "rongyun"],
+    "support": {
+        "issues": "https://github.com/shankesgk2/rongcloud/issues",
+        "source": "https://github.com/shankesgk2/rongcloud"
+    },
+    "authors": [
+        {
+            "name": "DS",
+            "email": "shankesgk2@gmail.com"
+        }
+    ],
+    "require": {
+        "illuminate/support": "^5.1 || ^6.0",
+        "rongcloud/php-sdk": "^3.0.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Shankesgk2\\RongCloud\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Shankesgk2\\RongCloud\\RongCloudServiceProvider"
+            ],
+            "aliases": {
+                "RongCloud": "Shankesgk2\\RongCloud\\Facades\\Rongcloud"
+            }
+        }
+    },
+    "license": "MIT",
+    "minimum-stability": "dev"
+}
