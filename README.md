@@ -58,7 +58,7 @@ $user = [
     'portrait' => 'http://7xogjk.com1.z0.glb.clouddn.com/IuDkFprSQ1493563384017406982'
 ];
 
-return RongCloud::getUser()->register($user);
+$register = RongCloud::getUser()->register($user);
 
 ```
 
