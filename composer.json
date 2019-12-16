@@ -1,6 +1,6 @@
 {
     "name": "shankesgk2/rongcloud",
-    "description": "融云服务端SDK在Laravel的封装包",
+    "description": "基于 rongcloud/php-sdk@3.0.3 的融云服务端SDK在 Laravel 的封装包",
     "type": "library",
     "keywords": ["rongcloud", "laravel", "package", "rongyun"],
     "support": {

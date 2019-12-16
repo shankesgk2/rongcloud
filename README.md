@@ -50,14 +50,15 @@ RC_SMS_URL=
 ## 使用方法
 
 ```PHP
-use Shankesgk2\RongCloud\RongCloud;
+use Shankesgk2\RongCloud\Facades\RongCloud;
 
-$chatroom = [
-    ['id'=> 'phpchatroom4',//聊天室 id
-    'name'=> 'phpchatroom1']//聊天室 name
+$user = [
+    'id' => 'Lrkqw5cNGD',
+    'name' => 'test1',
+    'portrait' => 'http://7xogjk.com1.z0.glb.clouddn.com/IuDkFprSQ1493563384017406982'
 ];
 
-return RongCloud::getChatroom()->create($chatroom);
+return RongCloud::getUser()->register($user);
 
 ```
 
