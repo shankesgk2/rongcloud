@@ -11,5 +11,6 @@ return [
         'https://api-cn.ronghub.com/',
         'https://api2-cn.ronghub.com/'
     ],
-    'smsUrl' => env('RC_SMS_URL', 'http://api.sms.ronghub.com/')
+    'smsUrl' => env('RC_SMS_URL', 'http://api.sms.ronghub.com/'),
+    'defaultAvator' => ''
 ];

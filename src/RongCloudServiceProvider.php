@@ -23,9 +23,9 @@ class RongCloudServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        $path = realpath(__DIR__ . '/../config/config.php');
+        $path = realpath(__DIR__ . '/../config/rongcloud-config.php');
         if ($this->app instanceof LaravelApplication && $this->app->runningInConsole()) {
-            $this->publishes([$path => config_path('rongcloud.php')], 'config');
+            $this->publishes([$path => config_path('rongcloud.php')], 'rongcloud-config');
         } elseif ($this->app instanceof LumenApplication) {
             $this->app->configure('rongcloud');
         }
