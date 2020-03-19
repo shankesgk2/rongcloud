@@ -14,7 +14,7 @@
         }
     ],
     "require": {
-        "illuminate/support": "^5.1 || ^6.0",
+        "illuminate/support": "^5.1 || ^6.0 || ^7.0",
         "rongcloud/php-sdk": "^3.0.3"
     },
     "autoload": {
